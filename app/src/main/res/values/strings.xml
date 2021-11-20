@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Info</string>
+    <string name="button_info">Info Pessoal</string>
+    <string name="button_info_secudnaria">Info Secundaria</string>
+</resources>
