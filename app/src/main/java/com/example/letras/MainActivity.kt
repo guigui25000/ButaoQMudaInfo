@@ -28,14 +28,14 @@ class MainActivity : AppCompatActivity() {
 
     fun infoPrincipal(){
 
-        val textViewMusica = findViewById<TextView>(R.id.texto)
-        textViewMusica.text = INFORMACOES_PRINCIPAIS
+        val textViewInfo = findViewById<TextView>(R.id.texto)
+        textViewInfo.text = INFORMACOES_PRINCIPAIS
 
     }
     fun infoSecundaria(){
 
-        val textViewMusica = findViewById<TextView>(R.id.texto)
-        textViewMusica.text = INFORMACOES_SECUNDARIAS
+        val textViewInfoSecu = findViewById<TextView>(R.id.texto)
+        textViewInfoSecu.text = INFORMACOES_SECUNDARIAS
 
     }
     companion object {
