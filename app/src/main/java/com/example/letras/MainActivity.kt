@@ -14,13 +14,13 @@ class MainActivity : AppCompatActivity() {
         val textViewNome = findViewById<TextView>(R.id.nome)
         textViewNome.text = NOME
 
-        val botaoMusicaTraducao = findViewById<Button>(R.id.buttonInfoSecundaria)
-        botaoMusicaTraducao.setOnClickListener {
+        val botaoInfoPricipal = findViewById<Button>(R.id.buttonInfoSecundaria)
+        botaoInfoPricipal.setOnClickListener {
             infoSecundaria()
         }
 
-        val botaoMusicaOriginal = findViewById<Button>(R.id.buttonInfo)
-        botaoMusicaOriginal.setOnClickListener {
+        val botaoInfoSecundaria = findViewById<Button>(R.id.buttonInfo)
+        botaoInfoSecundaria.setOnClickListener {
             infoPrincipal()
         }
 
