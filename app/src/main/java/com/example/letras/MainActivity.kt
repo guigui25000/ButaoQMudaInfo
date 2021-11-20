@@ -28,8 +28,8 @@ class MainActivity : AppCompatActivity() {
 
     fun infoPrincipal(){
 
-        val textViewInfo = findViewById<TextView>(R.id.texto)
-        textViewInfo.text = INFORMACOES_PRINCIPAIS
+        val textViewInfos = findViewById<TextView>(R.id.texto)
+        textViewInfos.text = INFORMACOES_PRINCIPAIS
 
     }
     fun infoSecundaria(){
